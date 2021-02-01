@@ -31,6 +31,7 @@ skinparam {
     NoteBackgroundColor $NOTE_BACKGROUND
     ParticipantBackgroundColor $ITEM_BACKGROUND
     StateBackgroundColor $ITEM_BACKGROUND
+    stereotypeCBackgroundColor white
     
     ActorBorderColor $ITEM_BORDER
     ArrowColor $ITEM_BORDER
