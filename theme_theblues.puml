@@ -21,7 +21,8 @@ skinparam BorderColor $ITEM_BORDER
 skinparam Shadowing false
 
 skinparam {
-    ActorBackgroundColor $ITEM_BACKGROUND
+    ActorBackgroundColor 
+    ClassBackgroundColor $ITEM_BACKGROUND    
     ComponentBackgroundColor $ITEM_BACKGROUND
     ControlBackgroundColor $ITEM_BACKGROUND
     DatabaseBackgroundColor $ITEM_BACKGROUND
@@ -33,6 +34,7 @@ skinparam {
     
     ActorBorderColor $ITEM_BORDER
     ArrowColor $ITEM_BORDER
+    ClassBorderColor $ITEM_BORDER
     ComponentBorderColor $ITEM_BORDER
     ControlBorderColor $ITEM_BORDER
     DatabaseBorderColor $ITEM_BORDER
