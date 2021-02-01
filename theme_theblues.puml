@@ -1,0 +1,52 @@
+' PlantUML Version of Sequence As-Is Diagram
+' RESOURCES
+'   Site:               https://plantuml.com/
+'   Choclatey:          https://chocolatey.org/packages/plantuml
+'   Install:            cinst -y plantuml
+'   VSCode Extension:   https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+'   Forum:              https://forum.plantuml.net/
+'   Docs:               http://plantuml.com/guide
+'   Integration:        https://advancedweb.hu/how-to-integrate-plantuml-into-other-software/
+'   Github Integration: https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/
+'   Cheatsheet:         https://blog.anoff.io/puml-cheatsheet.pdf
+
+
+skinparam BackgroundColor white
+skinparam BorderColor black
+skinparam Shadowing false
+
+!global $NOTE_BACKGROUND = "#FFFFEE"
+!global $NOTE_BORDER = black
+
+!global $ITEM_BACKGROUND = "#85BBF0"
+!global $ITEM_BORDER = "#3D81C3"
+
+
+
+skinparam {
+    ActorBackgroundColor $ITEM_BACKGROUND
+    ControlBackgroundColor $ITEM_BACKGROUND
+    DatabaseBackgroundColor $ITEM_BACKGROUND
+    EntityBackgroundColor $ITEM_BACKGROUND
+    LifeLineBackgroundColor $ITEM_BACKGROUND
+    NoteBackgroundColor $NOTE_BACKGROUND
+    ParticipantBackgroundColor $ITEM_BACKGROUND
+    StateBackgroundColor $ITEM_BACKGROUND
+
+    ActorBorderColor $ITEM_BORDER
+    ArrowColor $ITEM_BORDER
+    ControlBorderColor $ITEM_BORDER
+    DatabaseBorderColor $ITEM_BORDER
+    EntityBorderColor $ITEM_BORDER
+    LifeLineBorderColor $ITEM_BORDER
+    NoteBorderColor $NOTE_BORDER
+    ParticipantBorderColor $ITEM_BORDER
+    StateBorderColor  $ITEM_BORDER
+
+    ActorFontColor black
+    DatabaseFontColor black
+    LifeLineFontColor black
+    ParticipantFontColor black
+    NoteFontColor black
+}
+
