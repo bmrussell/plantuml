@@ -10,21 +10,19 @@
 '   Github Integration: https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/
 '   Cheatsheet:         https://blog.anoff.io/puml-cheatsheet.pdf
 
-
-skinparam BackgroundColor white
-skinparam BorderColor black
-skinparam Shadowing false
-
 !global $NOTE_BACKGROUND = "#FFFFEE"
 !global $NOTE_BORDER = black
 
 !global $ITEM_BACKGROUND = "#85BBF0"
 !global $ITEM_BORDER = "#3D81C3"
 
-
+skinparam BackgroundColor white
+skinparam BorderColor $ITEM_BORDER
+skinparam Shadowing false
 
 skinparam {
     ActorBackgroundColor $ITEM_BACKGROUND
+    ComponentBackgroundColor $ITEM_BACKGROUND
     ControlBackgroundColor $ITEM_BACKGROUND
     DatabaseBackgroundColor $ITEM_BACKGROUND
     EntityBackgroundColor $ITEM_BACKGROUND
@@ -32,23 +30,24 @@ skinparam {
     NoteBackgroundColor $NOTE_BACKGROUND
     ParticipantBackgroundColor $ITEM_BACKGROUND
     StateBackgroundColor $ITEM_BACKGROUND
-
+    
     ActorBorderColor $ITEM_BORDER
     ArrowColor $ITEM_BORDER
+    ComponentBorderColor $ITEM_BORDER
     ControlBorderColor $ITEM_BORDER
     DatabaseBorderColor $ITEM_BORDER
     EntityBorderColor $ITEM_BORDER
     LifeLineBorderColor $ITEM_BORDER
     NoteBorderColor $NOTE_BORDER
     ParticipantBorderColor $ITEM_BORDER
-    StateBorderColor  $ITEM_BORDER
-
-
+    StateBorderColor $ITEM_BORDER
+    
     ActorFontColor black
     DatabaseFontColor black
     LifeLineFontColor black
-    ParticipantFontColor black
     NoteFontColor black
+    PackageBorderColor $ITEM_BORDER
+    ParticipantFontColor black
 }
 
 skinparam sequence {
