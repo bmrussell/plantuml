@@ -42,8 +42,7 @@ skinparam {
     NoteBorderColor $NOTE_BORDER
     ParticipantBorderColor $ITEM_BORDER
     StateBorderColor  $ITEM_BORDER
-    LifeLineBackgroundColor $ITEM_BORDER
-    LifeLineBorderColor $ITEM_BORDER
+
 
     ActorFontColor black
     DatabaseFontColor black
@@ -52,3 +51,7 @@ skinparam {
     NoteFontColor black
 }
 
+skinparam sequence {
+    LifeLineBackgroundColor white
+    LifeLineBorderColor $ITEM_BORDER
+}
