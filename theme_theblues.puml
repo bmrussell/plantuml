@@ -42,6 +42,7 @@ skinparam {
     NoteBorderColor $NOTE_BORDER
     ParticipantBorderColor $ITEM_BORDER
     StateBorderColor  $ITEM_BORDER
+    LifeLineBackgroundColor $ITEM_BORDER
 
     ActorFontColor black
     DatabaseFontColor black
