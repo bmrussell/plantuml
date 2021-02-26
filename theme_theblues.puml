@@ -13,7 +13,8 @@
 !global $NOTE_BACKGROUND = "#FFFFEE"
 !global $NOTE_BORDER = black
 
-!global $ITEM_BACKGROUND = "#85BBF0"
+'!global $ITEM_BACKGROUND = "#85BBF0"
+!global $ITEM_BACKGROUND = white
 !global $ITEM_BORDER = "#3D81C3"
 
 skinparam BackgroundColor white
@@ -21,7 +22,8 @@ skinparam BorderColor $ITEM_BORDER
 skinparam Shadowing false
 
 skinparam {
-    ActorBackgroundColor 
+    ActorBackgroundColor  $ITEM_BACKGROUND
+    ActivityBackgroundColor $ITEM_BACKGROUND
     ClassBackgroundColor $ITEM_BACKGROUND    
     ComponentBackgroundColor $ITEM_BACKGROUND
     ControlBackgroundColor $ITEM_BACKGROUND
@@ -32,8 +34,9 @@ skinparam {
     ParticipantBackgroundColor $ITEM_BACKGROUND
     StateBackgroundColor $ITEM_BACKGROUND
     stereotypeCBackgroundColor white
-    
+
     ActorBorderColor $ITEM_BORDER
+    ActivityBorderColor $ITEM_BORDER
     ArrowColor $ITEM_BORDER
     ClassBorderColor $ITEM_BORDER
     ComponentBorderColor $ITEM_BORDER
@@ -46,6 +49,7 @@ skinparam {
     StateBorderColor $ITEM_BORDER
     
     ActorFontColor black
+    ActivityFontColor black
     DatabaseFontColor black
     LifeLineFontColor black
     NoteFontColor black
