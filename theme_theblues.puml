@@ -80,3 +80,9 @@ skinparam SequenceGroup {
     BackgroundColor $ITEM_BACKGROUND
     BorderColor $ITEM_BORDER
 }
+
+skinparam Class {
+    BackgroundColor $ITEM_BACKGROUND
+    BorderColor $ITEM_BORDER
+}
+
