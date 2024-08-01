@@ -86,3 +86,9 @@ skinparam Class {
     BorderColor $ITEM_BORDER
 }
 
+skinparam node {    
+    BorderThickness 1
+    BackgroundColor transparent
+    BorderColor $ITEM_BORDER
+    FontStyle bold
+}
