@@ -12,7 +12,7 @@
 
 !global $ITEM_BACKGROUND = "#85BBF0"
 !global $ITEM_BORDER = "#3D81C3"
-!global $SECONDARY_BACKGROUND = "#85BBF0"
+!global $SECONDARY_BACKGROUND = "#DAD2BD"
 
 skinparam BackgroundColor white
 skinparam BorderColor $ITEM_BORDER
