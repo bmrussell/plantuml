@@ -20,6 +20,7 @@ skinparam Shadowing false
 
 skinparam {
 	SequenceDividerBackgroundColor $SECONDARY_BACKGROUND
+    SequenceDividerBorderColor $SECONDARY_BACKGROUND
     ActorBackgroundColor $ITEM_BACKGROUND
     ControlBackgroundColor $ITEM_BACKGROUND
     DatabaseBackgroundColor $ITEM_BACKGROUND
