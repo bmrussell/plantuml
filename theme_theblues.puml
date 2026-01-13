@@ -12,12 +12,14 @@
 
 !global $ITEM_BACKGROUND = "#85BBF0"
 !global $ITEM_BORDER = "#3D81C3"
+!global $SECONDARY_BACKGROUND = "#85BBF0"
 
 skinparam BackgroundColor white
 skinparam BorderColor $ITEM_BORDER
 skinparam Shadowing false
 
 skinparam {
+	SequenceDividerBackgroundColor $SECONDARY_BACKGROUND
     ActorBackgroundColor $ITEM_BACKGROUND
     ControlBackgroundColor $ITEM_BACKGROUND
     DatabaseBackgroundColor $ITEM_BACKGROUND
